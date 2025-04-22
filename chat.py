@@ -2,7 +2,7 @@ import torch
 from main import MiniGPT, CharTokenizer, generate, load_dataset_csv
 
 model_path = "materny_gpt.pth"
-dataset_path = "/Users/eaambartsumyan/Desktop/angry_gpt/angry_gpt_full_dataset.csv"
+dataset_path = "path"
 block_size = 64
 
 raw_text = load_dataset_csv(dataset_path)
